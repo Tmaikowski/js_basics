@@ -57,7 +57,9 @@ a {
 #no_bullet {
   list-style-type: none;
   position: relative;
-  left: -20px;
+  /*left: -20px;*/
+  left: 20px;
+  top: 15px;
 }
 
 #side-bar ul li {
@@ -68,14 +70,18 @@ a {
   color: #7DAABB;
 }
 
-#side-bar ul a li span{
+#side-bar ul li a span{
   color: #89DAE4;
 }
 
-#side-bar ul ul a li span {
+#side-bar ul ul li a span {
   color: #89DAE4;
 }
 
 a {
   color: #89DAE4;
+}
+
+#nested_list {
+  list-style: none;
 }
